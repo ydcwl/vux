@@ -1,8 +1,5 @@
 <template>
   <div>
-    <group>
-      <x-switch :title="$t('Toggle')" v-model="show"></x-switch>
-    </group>
     <div v-transfer-dom>
       <confirm v-model="show"
       :title="$t('confirm deleting the item')"
